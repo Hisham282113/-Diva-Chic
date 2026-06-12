@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diva Chic | ديفا شيك</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Tahoma,sans-serif;
+}
+
+body{
+    background:#fdf7f9;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(135deg,#ff6fa5,#ffb6c1);
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+header h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:1.2rem;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    background:white;
+    color:#ff4f8b;
+    padding:12px 25px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+section{
+    padding:50px 20px;
+    max-width:1200px;
+    margin:auto;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    padding:20px;
+    text-align:center;
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+}
+
+.card h3{
+    margin:15px 0;
+}
+
+.contact{
+    background:#fff;
+    text-align:center;
+    border-radius:20px;
+    padding:40px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Diva Chic</h1>
+    <p>مستحضرات تجميل - عطور - إكسسوارات - هدايا</p>
+
+    <a class="btn" href="https://wa.me/963998158557">
+        تواصل عبر واتساب
+    </a>
+</header>
+
+<section>
+    <h2 style="text-align:center;margin-bottom:30px;">
+        منتجاتنا
+    </h2>
+
+    <div class="products">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600" alt="">
+            <h3>مكياج احترافي</h3>
+            <p>أحدث منتجات التجميل العالمية.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1541643600914-78b084683601?w=600" alt="">
+            <h3>عطور فاخرة</h3>
+            <p>تشكيلة متنوعة للرجال والنساء.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?w=600" alt="">
+            <h3>إكسسوارات وهدايا</h3>
+            <p>هدايا مميزة لجميع المناسبات.</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <div class="contact">
+        <h2>تواصل معنا</h2>
+        <br>
+        <p>📞 0998158557</p>
+        <br>
+        <p>📍 شارع الخضري مقابل علوش للاتصالات</p>
+    </div>
+</section>
+
+<footer>
+    © 2026 Diva Chic - جميع الحقوق محفوظة
+</footer>
+
+</body>
+</html>
